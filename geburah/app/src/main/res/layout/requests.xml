@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/_0068788"
+    >
+
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="50dp" />
+
+        <RadioGroup
+                android:id = "@+id/requestfor"
+                android:layout_width="match_parent"
+                android:layout_height="200dp" >
+
+                <RadioButton
+                    android:id="@+id/something"
+                    android:background="@color/white"
+
+                    android:layout_width="match_parent"
+                    android:layout_height="48dp"
+                    android:text="something" />
+
+                <RadioButton
+                    android:id="@+id/anotherthing"
+                    android:background="@color/white"
+                    android:layout_width="match_parent"
+                    android:layout_height="48dp"
+                    android:text="something" />
+
+                <RadioButton
+                    android:id="@+id/yetanotherthing"
+                    android:background="@color/white"
+                    android:layout_width="match_parent"
+                    android:layout_height="48dp"
+                    android:text="something else" />
+
+            </RadioGroup>
+
+            <TextView
+                android:id="@+id/textView6"
+
+                android:layout_width="match_parent"
+
+                android:layout_height="wrap_content"
+                android:background="@color/white"
+                android:text="amount" />
+
+            <EditText
+            android:background="@color/white"
+
+            android:id="@+id/amount"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:ems="10"
+
+                android:text=""
+                android:inputType="numberDecimal|numberSigned" />
+
+        <TextView
+            android:id="@+id/textView6"
+
+            android:layout_width="match_parent"
+
+            android:layout_height="wrap_content"
+            android:background="@color/white"
+            android:text="location" />
+
+        <EditText
+            android:background="@color/white"
+
+            android:id="@+id/location"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:ems="10"
+
+            android:text=""
+            android:inputType="text" />
+        <TextView
+            android:background="@color/white"
+
+            android:id="@+id/textViewamount"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="offer" />
+
+        <EditText
+            android:background="@color/white"
+            android:text=""
+
+            android:id="@+id/offer"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:ems="10"
+            android:inputType="numberDecimal|numberSigned" />
+
+        <TextView
+            android:background="@color/white"
+
+            android:id="@+id/textViewamount"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="latitude money" />
+
+        <EditText
+            android:background="@color/white"
+            android:text=""
+
+            android:id="@+id/latitude"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:ems="10"
+
+            android:inputType="numberDecimal|numberSigned" />
+        <TextView
+            android:background="@color/white"
+
+            android:id="@+id/textviewlongitude"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="longitude money" />
+
+        <EditText
+            android:background="@color/white"
+            android:text=""
+
+            android:id="@+id/longitude"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:ems="10"
+            android:inputType="numberDecimal|numberSigned" />
+
+        <Button
+            android:id="@+id/request"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#9C27B0"
+            android:text="submit request" />
+
+        <Button
+            android:id="@+id/silkerview"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#9C27B0"
+            android:text="silker" />
+
+        </LinearLayout>
+</LinearLayout>

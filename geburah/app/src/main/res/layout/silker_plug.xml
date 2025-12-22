@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="0"
+        android:background="@drawable/_0068788"
+        android:orientation="vertical">
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            android:layout_weight="0" />
+
+        <com.google.android.gms.maps.MapView
+            android:id="@+id/mapView"
+            android:layout_width="match_parent"
+            android:layout_height="230dp"
+            android:layout_weight="0"
+            android:alpha="0.99"
+            android:background="@color/white" />
+
+        <com.google.android.gms.maps.StreetViewPanoramaView
+            android:id="@+id/streetView"
+            android:layout_width="match_parent"
+
+            android:layout_height="230dp"
+            android:layout_weight="0"
+            >
+
+        </com.google.android.gms.maps.StreetViewPanoramaView>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0"
+            android:background="@color/white"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="0"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/cancelrequest"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Cancel" />
+
+                <Button
+                    android:id="@+id/finishrequest"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Finish request" />
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/textViewamount"
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/white"
+                    android:text="latitude request" />
+
+                <EditText
+                    android:id="@+id/latitude"
+                    android:layout_width="match_parent"
+
+                    android:layout_height="48dp"
+                    android:background="@color/white"
+                    android:ems="10"
+                    android:inputType="numberDecimal|numberSigned"
+                    android:text="" />
+
+                <TextView
+                    android:id="@+id/textviewlongitude"
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/white"
+                    android:text="longitude request" />
+
+                <EditText
+                    android:id="@+id/longitude"
+                    android:layout_width="match_parent"
+
+                    android:layout_height="48dp"
+                    android:background="@color/white"
+                    android:ems="10"
+                    android:inputType="numberDecimal|numberSigned"
+                    android:text="" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/info"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@color/white"
+                    android:text="info" />
+
+                <TextView
+                    android:id="@+id/textviewlocation"
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/white"
+                    android:text="location request" />
+
+                <EditText
+                    android:id="@+id/location"
+                    android:layout_width="wrap_content"
+
+                    android:layout_height="48dp"
+                    android:background="@color/white"
+                    android:ems="10"
+                    android:inputType="text"
+                    android:text="" />
+            </LinearLayout>
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+</LinearLayout>
